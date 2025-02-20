@@ -6,7 +6,7 @@ const NavBar = () => (
     <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <div className="container-fluid">
         <Link href="/" className="navbar-brand">
-            Bookmarker
+          Bookmarker
         </Link>
         <button
           className="navbar-toggler"
@@ -23,7 +23,7 @@ const NavBar = () => (
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
               <Link href="/bookmarks/add" className="nav-link">
-                  Add Bookmark
+                Add Bookmark
               </Link>
             </li>
           </ul>
